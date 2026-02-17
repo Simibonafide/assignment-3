@@ -1,7 +1,7 @@
 const productService = require("../services/productService");
 
 const getProduct = (req, res) => {
-  const products = productService.getAllProducts();
+  const products = productService.getAll;
   res.json({
     success: true,
     data: products,

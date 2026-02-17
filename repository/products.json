@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Simi",
+    "price": 50,
+    "category": "Electronics",
+    "description": "electric devices",
+    "stock": 2,
+    "isActive": true
+  },
+  {
+    "name": "John",
+    "price": 30,
+    "category": "Food",
+    "description": "food products",
+    "stock": 5,
+    "isActive": true
+  }
+]

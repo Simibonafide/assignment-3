@@ -13,9 +13,7 @@ function writeData(data) {
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
 }
 
-const getAllProducts = () => readData();
-
-const getProductById = (id) => {};
+const getAll = () => readData();
 
 const createProduct = (productData) => {
   const products = readData();
@@ -50,7 +48,7 @@ const deleteProduct = (id) => {
 };
 
 module.exports = {
-  getAllProducts,
+  getAll,
   createProduct,
   updateProduct,
   deleteProduct,

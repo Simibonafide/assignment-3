@@ -7,6 +7,6 @@ app.use(express.json());
 
 app.use("/products", productRoutes);
 
-app.listen(3000, () => {
-    console.log('server running on port 3000')
+app.listen(3001, () => {
+    console.log('server running on port http://localhost:3001');
 })
